@@ -65,6 +65,14 @@ bash launch_app.sh
 
 It's important to ensure that AWS credentials are properly configured, either using the AWS CLI or by configuring them directly in the application.
 
+# 🖼️ Streamlit Application Illustration
+
+The project features a Streamlit-based web interface, providing an interactive and user-friendly platform to demonstrate the functionalities of our ML models. This interface allows users to upload resumes, see the categorization in action, and interact with the model's outputs, providing a practical and engaging way to explore the capabilities of our system.
+
+# 🔄 Ongoing Work and Improvements
+
+This project is a work in progress. Currently, two Machine Learning models – Random Forest and MLP (Multilayer Perceptron) – are being compared and optimized for better performance. Continuous efforts are being made to enhance these models and improve their accuracy and efficiency in resume categorization.
+
 # How to Contribute
 
 Contributions are always welcome! Whether it's improving the code, enhancing the ML model, suggesting new features, or reporting bugs, all input is valuable. The script for AWS deployment is currently under development and contributions in this area are particularly appreciated.
