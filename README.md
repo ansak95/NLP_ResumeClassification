@@ -67,7 +67,10 @@ It's important to ensure that AWS credentials are properly configured, either us
 
 # 🖼️ Streamlit Application Illustration
 
-The project features a Streamlit-based web interface, providing an interactive and user-friendly platform to demonstrate the functionalities of our ML models. This interface allows users to upload resumes, see the categorization in action, and interact with the model's outputs, providing a practical and engaging way to explore the capabilities of our system.
+The project features a Streamlit-based web interface, providing an interactive and user-friendly platform to demonstrate the functionalities of our ML models. This interface allows users to upload resumes, see the categorization in action, and interact with the model's outputs. To enhance the understanding of our models, we utilize SHAP values for in-depth analysis. These values help in interpreting the model's decisions, providing insights into which features are most influential in the categorization process. This addition offers a practical and engaging way for users to explore the capabilities of our system, ensuring transparency and interpretability in our machine learning models.
+
+![A screenshot of the Streamlit web interface from the Resume Classifier project.](figs/CapEcran1.png)
+
 
 # 🔄 Ongoing Work and Improvements
 
