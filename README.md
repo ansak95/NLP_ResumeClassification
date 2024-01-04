@@ -1,4 +1,4 @@
-# 🚀 Project Overview
+# 🚀 Project overview
 Welcome to the GitHub repository! 🌟 This project focuses on automating the categorization of resume PDF documents, handling over 2400 resumes from livecareer.com collected in Kaggle. It's crafted with Machine Learning and Natural Language Processing techniques and is developed as a web-based model. Implemented on Amazon Web Services (AWS) cloud infrastructure, it also features a Streamlit interface for ease of use and interaction.
 
 # 🎯 Objective
@@ -40,7 +40,7 @@ pip install -q -r requirements.txt
 ```
 
 
-## Running the Streamlit Application
+## Running the Streamlit application
 
 To run the Streamlit application, use:
 
@@ -50,7 +50,7 @@ streamlit run app.py
 ```
 
 
-# Using the Shell Script
+# Using the shell script
 
 Alternatively, a shell script can be used to execute configuration actions on an AWS instance and install the required packages:
 
@@ -61,22 +61,22 @@ bash launch_app.sh
 
 *Note: To execute the shell script on an AWS instance, edit the script to specify the {NOTEBOOK_URL}.
 
-# AWS Configuration
+# AWS configuration
 
 It's important to ensure that AWS credentials are properly configured, either using the AWS CLI or by configuring them directly in the application.
 
-# 🖼️ Streamlit Application Illustration
+# 🖼️ Streamlit application illustration
 
 The project features a Streamlit-based web interface, providing an interactive and user-friendly platform to demonstrate the functionalities of our ML models. This interface allows users to upload resumes, see the categorization in action, and interact with the model's outputs. To enhance the understanding of our models, we utilize SHAP values for in-depth analysis. These values help in interpreting the model's decisions, providing insights into which features are most influential in the categorization process. This addition offers a practical and engaging way for users to explore the capabilities of our system, ensuring transparency and interpretability in our machine learning models.
 
 ![A screenshot of the Streamlit web interface from the Resume Classifier project.](figs/CapEcran1.png)
 
 
-# 🔄 Ongoing Work and Improvements
+# 🔄 Ongoing work and improvements
 
 This project is a work in progress. Currently, two Machine Learning models – Random Forest and MLP (Multilayer Perceptron) – are being compared and optimized for better performance. Continuous efforts are being made to enhance these models and improve their accuracy and efficiency in resume categorization.
 
-# How to Contribute
+# How to contribute
 
 Contributions are always welcome! Whether it's improving the code, enhancing the ML model, suggesting new features, or reporting bugs, all input is valuable. The script for AWS deployment is currently under development and contributions in this area are particularly appreciated.
 
